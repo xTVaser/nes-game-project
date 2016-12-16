@@ -1,0 +1,13 @@
+; hellones.asm
+LoadPalettes                     = $C01A
+WaitForVBlank                    = $C083
+HelloWorld_topBlank              = $C048
+palette                          = $E000
+LoadPalettesLoop                 = $C029
+HelloWorld_printHello            = $C050
+HelloWorld_attributeTable        = $C06E
+MainGameLoop                     = $C07F
+HelloWorld                       = $C034
+RESET                            = $C000
+hello_string                     = $E020
+HelloWorld_bottomBlank           = $C061
